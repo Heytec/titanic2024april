@@ -43,3 +43,6 @@ st.plotly_chart(fig_age_survival)
 
 fig_age_survival = px.histogram(data, x='Age', color='Survived', nbins=50, title='Age Distribution by Survival Status')
 st.plotly_chart(fig_age_survival)
+
+
+st.balloons()
